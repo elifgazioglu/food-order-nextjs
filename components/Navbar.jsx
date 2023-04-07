@@ -1,0 +1,23 @@
+import Image from "next/image";
+import React from "react";
+import styles from "../styles/Navbar.module.css";
+
+const Navbar = () => {
+  return (
+    <div className={styles.container}>
+      <div className={styles.item}>
+        <div className={styles.callButton}>
+          <Image src="/img/telephone.jpeg" alt="" width="100" height="100"/>
+        </div>
+        <div className={styles.texts}>
+          <div className={styles.text}>ORDER NOW</div>
+          <div className={styles.text}>0212 121 1212</div>
+        </div>
+      </div>
+      <div className={styles.item}></div>
+      <div className={styles.item}></div>
+    </div>
+  );
+};
+
+export default Navbar;
