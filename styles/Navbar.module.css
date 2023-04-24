@@ -1,6 +1,6 @@
 .container{
     height: 100px;
-    padding: 0px 50px;
+    padding: 10px 50px;
     margin: -10px;
     background-color: pink;
     display: flex;
@@ -16,12 +16,12 @@
     align-items: center;
 }
 
-.item:last-child{
-    justify-content: flex-end;
+.item:nth-child(2){
+    flex: 3;
 }
 
-.item:nth-child(3){
-    flex: 3;
+.item:last-child{
+    justify-content: flex-end;
 }
 
 .callButton{

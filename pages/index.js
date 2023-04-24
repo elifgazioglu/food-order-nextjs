@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import Featured from "@/components/Featured";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <meta name="description" content="Best donut in town" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      homepage
+      <Featured/>
     </div>
   );
 }

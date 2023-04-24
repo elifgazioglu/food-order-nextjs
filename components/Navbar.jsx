@@ -1,7 +1,7 @@
 import Image from "next/image";
+import styles from "../styles/Navbar.module.css";
 import React from "react";
 import { BsCart2, BsTelephone } from "react-icons/bs";
-import styles from "../styles/Navbar.module.css";
 
 const Navbar = () => {
   return (
