@@ -38,3 +38,9 @@
 .text:last-child{
     font-weight: bold;
 }
+
+.cartIcon, .telephoneIcon {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
