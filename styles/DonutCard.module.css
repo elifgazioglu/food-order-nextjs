@@ -1,0 +1,35 @@
+.container{
+    width: 19%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 40px;
+    background-color: rgb(255, 233, 236);
+    margin: 5px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.container:hover{
+    background-color: pink;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.price{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.desc{
+    text-align: center;
+    color: #777 ;
+}
