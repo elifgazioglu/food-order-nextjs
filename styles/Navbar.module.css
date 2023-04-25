@@ -8,6 +8,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .item{
@@ -59,6 +60,7 @@
     width: 30px;
     height: 30px;
     color: white;
+    cursor: pointer;
 }
 
 .cart{
