@@ -1,0 +1,50 @@
+.container{
+    height: calc(100vh - 100px);
+    display: flex;
+}
+
+.left{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    flex: 1;
+    padding: 20px;
+}
+
+.title{
+    font-size: 25px;
+    color: rgb(255, 153, 170);
+}
+
+.imgContainer{
+    width: 60%;
+    height: 60%;
+    position: relative;
+}
+
+.price{
+    color: pink;
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 1px solid pink;
+}
+
+.quantity{
+    width: 60px;
+    height: 30px;
+}
+
+.button{
+    height: 35px;
+    margin: 10px;
+    background-color: pink;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
