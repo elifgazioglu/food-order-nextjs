@@ -1,6 +1,6 @@
 .container{
     height: calc(80vh - 80px);
-    background-color: rgb(255, 159, 175);
+    background-color: pink;
     display: flex;
     margin: -10px;
 }
@@ -28,7 +28,7 @@
 }
 
 .text{
-    color: rgb(255, 211, 218);
+    color: rgb(255, 139, 159);
 }
 
 .motto{
