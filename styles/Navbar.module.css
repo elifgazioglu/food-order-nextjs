@@ -1,4 +1,4 @@
-.container{
+.container {
     height: 100px;
     padding: 10px 50px;
     margin: -10px;
@@ -11,40 +11,40 @@
     z-index: 999;
 }
 
-.item{
+.item {
     flex: 2;
     display: flex;
     align-items: center;
 }
 
-.item:nth-child(2){
+.item:nth-child(2) {
     flex: 3;
 }
 
-.item:last-child{
+.item:last-child {
     justify-content: flex-end;
 }
 
-.callButton{
+.callButton {
     border-radius: 100%;
     padding: 10px;
 }
 
-.texts{
+.texts {
     margin-left: 5px;
     color: white;
 }
 
-.text:first-child{
+.text:first-child {
     font-size: 12px;
     padding: 3px;
 }
 
-.text:last-child{
+.text:last-child {
     font-weight: bold;
 }
 
-.list{
+.list {
     padding: 0;
     display: flex;
     justify-content: center;
@@ -52,22 +52,23 @@
     color: white;
 }
 
-.listItem{
+.listItem {
     margin: 20px;
 }
 
-.cartIcon, .telephoneIcon {
+.cartIcon,
+.telephoneIcon {
     width: 30px;
     height: 30px;
     color: white;
     cursor: pointer;
 }
 
-.cart{
+.cart {
     position: relative;
 }
 
-.counter{
+.counter {
     position: absolute;
     top: -10px;
     right: -10px;
@@ -81,4 +82,18 @@
     justify-content: center;
     font-weight: bold;
     color: pink;
+}
+
+@media screen and (max-width:480px) {
+    .item:nth-child(2) {
+        display: none;
+    }
+
+    .item:nth-child(1) {
+        flex: 3;
+    }
+
+    .container{
+        margin-right: -22px;
+    }
 }

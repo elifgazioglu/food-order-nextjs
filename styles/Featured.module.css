@@ -3,6 +3,7 @@
     background-color: pink;
     margin: -10px;
     overflow: hidden;
+    position: relative;
 }
 
 .arrowContainer{
@@ -28,4 +29,17 @@
     height: 70%;
     top: 150px;
     position: relative;
+}
+
+@media screen and (max-width:480px) {
+
+    .container{
+        margin-right: -22px;
+        height: 350px;
+    }
+
+    .imgContainer{
+        width: 70vw;
+        height: 50%;
+    }
 }
