@@ -33,3 +33,18 @@
     text-align: center;
     color: #777 ;
 }
+
+@media screen and (max-width:480px) {
+    .container{
+        width:100%;
+        margin: 0 0 20px 15px;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .price, .desc{
+        font-size: 20px;
+    }
+}

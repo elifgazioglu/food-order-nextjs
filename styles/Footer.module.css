@@ -1,6 +1,6 @@
 .container{
     height: calc(80vh - 80px);
-    background-color: pink;
+    background-color: rgb(255, 155, 171);
     display: flex;
     margin: -10px;
 }
@@ -28,7 +28,7 @@
 }
 
 .text{
-    color: rgb(255, 139, 159);
+    color: rgb(255, 208, 216);
 }
 
 .motto{
@@ -41,4 +41,28 @@
     width: 25px;
     height: 25px;
     cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    .item:first-child{
+        display: none;
+    }
+
+    .item{
+        flex-direction: column;
+    }
+    
+    .container{
+        height: auto;
+        margin-right: -25px;
+        text-align: center;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
 }
