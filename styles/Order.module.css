@@ -50,9 +50,6 @@
     display: none;
 }
 
-/* .checkedIcon{
-    margin-left: 10px;
-} */
 
 .right {
     flex: 1
@@ -90,4 +87,66 @@
     color: white;
     background-color: pink;
     border: 1px solid white;
+}
+
+@media screen and (max-width:480px){
+    .container{
+        flex-direction: column; 
+    }
+
+    .trTitle{
+        display: none;
+    }
+
+    .tr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adress{
+        align-items: center;
+    }
+
+    .id:before{
+        content: "Order ID: ";
+        font-weight: bold;
+    }
+
+    .name:before{
+        content: "Customer: ";
+        font-weight: bold;
+    }
+
+    .adress:before{
+        content: "Adress: ";
+        font-weight: bold; 
+    }
+
+    .total:before{
+        content: "Total: ";
+        font-weight: bold; 
+    }
+
+    .row:last-child{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .done, .inProgress, .undone{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .checkedIcon{
+        margin-left:10px;
+    }
+ 
+    .wrapper{
+        width: 50%;
+    }
 }

@@ -8,20 +8,20 @@ const Cart = () => {
       <div className={styles.left}>
         <table className={styles.table}>
           <tbody>
-            <tr className={styles.tr}>
-              <th colSpan={-3}>Product</th>
+            <tr className={styles.trTitle}>
+              {/* <th colSpan={-3}>Product</th>
               <th>Name</th>
               <th>Extras</th>
               <th>Price</th>
               <th>Quantity</th>
-              <th>Total</th>
+              <th>Total</th> */}
             </tr>
-            <tr>
+            <tr className={styles.tr}>
               <td>
                 <div className={styles.imgContainer}>
                   <Image
                     className={styles.img}
-                    src="/img/photo1.png"
+                    src="/img/photo8.png"
                     layout="fill"
                     objectFit="cover"
                     alt=""
