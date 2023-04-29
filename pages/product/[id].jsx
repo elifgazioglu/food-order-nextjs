@@ -5,7 +5,7 @@ import styles from "@/styles/Product.module.css";
 const Product = () => {
   const donut = {
     id: 1,
-    img: "/img/photo9.png",
+    img: "/img/photo8.png",
     name: "STRAWBERRY DONUT",
     price: [1.99],
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corrupti odio deserunt quis eaque id blanditiis cumque vel dolorum. Temporibus.",
