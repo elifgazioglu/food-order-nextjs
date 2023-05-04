@@ -9,12 +9,12 @@ const OrderSchema = new mongoose.Schema(
     },
     adress: {
       type: String,
-      require: true,
+      required: true,
       maxlength: 200,
     },
     total: {
       type: Number,
-      require: true,
+      required: true,
     },
     status: {
       type: Number,
