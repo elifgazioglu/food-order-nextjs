@@ -9,12 +9,12 @@ const ProductSchema = new mongoose.Schema(
     },
     desc: {
       type: String,
-      require: true,
+      required: true,
       maxlength: 200,
     },
     img: {
       type: String,
-      require: true,
+      required: true,
     },
     prices: {
       type: [Number],
